@@ -1,0 +1,95 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .single-service {
+        padding: 0px 140px;
+        text-align: center;
+    }
+    .me-text {
+        text-align: center;
+    }
+	
+	.me-text h2 {
+     color:#333;
+	 font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+    .single-education span {
+        margin-bottom: 140px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .menu-bg .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .mainmenu .navbar-nav li a:hover {
+        color: #333;
+    }
+    .menu-bg .mainmenu .navbar-nav li a:hover {
+        color: #333;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-toggle {
+        margin-top: -30px;
+    }
+    .navbar-collapse {
+        background: linear-gradient(to right, #00FF6B, #33CFB7);
+    }
+    .menu-bg .navbar-collapse {
+        background: linear-gradient(to right, #00FF6B, #33CFB7);
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .single-service {
+        margin-top: 40px;
+    }
+    .section-title {
+        padding-top: 20px;
+    }
+    .me-text h2,
+    .work-together h3 {
+        font-size: 22px;
+        letter-spacing: 3px;
+    } 
+}
+
