@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- COOKIE CONSENT CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,6 +44,25 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-118679622-1', 'auto');
   ga('send', 'pageview');
+</script>
+<script src="assets/js/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d8a8a"
+    },
+    "button": {
+      "background": "#62ffaa"
+    }
+  },
+  "content": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience.",
+    "dismiss": "OK",
+    "link": "En savoir plus"
+  }
+})});
 </script>
 </head>
 

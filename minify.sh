@@ -39,6 +39,9 @@ postcss assets/css/style.css > build/assets/css/style.css
 echo "`tput setaf 5`Minifying css responsive...`tput op`"
 postcss assets/css/responsive.css > build/assets/css/responsive.css
 
+echo "`tput setaf 5`Minifying css cookie consent...`tput op`"
+postcss assets/css/cookieconsent.min.css > build/assets/css/cookieconsent.min.css
+
 echo "`tput setaf 5`Minifying js jquery...`tput op`"
 uglifyjs --compress --mangle -o build/assets/js/jquery.min.js -- assets/js/jquery.min.js
 
@@ -53,5 +56,8 @@ uglifyjs --compress --mangle -o build/assets/js/wow.min.js -- assets/js/wow.min.
 
 echo "`tput setaf 5`Minifying js custom scripts...`tput op`"
 uglifyjs --compress --mangle -o build/assets/js/scripts.js -- assets/js/scripts.js
+
+echo "`tput setaf 5`Minifying js cookie consent...`tput op`"
+uglifyjs --compress --mangle -o build/assets/js/cookieconsent.min.js -- assets/js/cookieconsent.min.js
 
 echo "`tput setaf 2`Project minified in dicrectory build!`tput op`"
