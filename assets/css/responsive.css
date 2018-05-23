@@ -51,6 +51,7 @@
     }
     .navbar {
         min-height: 0px;
+		text-align: right;
     }
     .mainmenu .navbar-nav li a {
         padding: 11px 15px;
@@ -86,10 +87,14 @@
     .section-title {
         padding-top: 20px;
     }
-    .me-text h2,
-    .work-together h3 {
+    .me-text h2 {
         font-size: 22px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
+    } 
+	.me-text h3{
+		font-size: 18px;
+        letter-spacing: 1px;
+		line-height: 22px;
     } 
 }
 
